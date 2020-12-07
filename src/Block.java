@@ -52,9 +52,23 @@ public class Block {
         return hash;
     }
 
+    public String getHash() {
+        return hash;
+    }
 
+    public String getPreviousHash() {
+        return previousHash;
+    }
 
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
 
+    public long getTimeStamp() {
+        return timeStamp;
+    }
 
-
+    public int getNonce() {
+        return nonce;
+    }
 }

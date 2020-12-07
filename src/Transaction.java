@@ -13,7 +13,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return System.out.printf("Transaction from %s to %S, amount: %f at %f",sender,receiver,amount,timeStamp)
-                .toString();
+        return "Transaction from " + sender + " to " +
+                receiver + ", amount: " + amount + " @ " + timeStamp;
     }
 }
